@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Blog Księżyc</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- LOGO STRONY -->
+    <header id="header" class="primary-header flex">
+        <div class="logo">
+            <h1>AstronomyBlog</h1>
+            <h2 class="subtitle">SeeYouOnTheOtherSite</h2>
+        </div>
+    </header>
+    <!-- CIALO STRONY ZAWIERAJACE IMG ORAZ AKORDEON -->
+    <section>
+        <div class="body">
+            <img src="planets/earthsMoon.jpg" alt="Księżyc">
+        </div>
+        <div class="body">
+            <div class="accordion">
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Powierzchnia Księżyca</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Powierzchnia Księżyca jest głównie pokryta kraterami uderzeniowymi, basenami księżycowymi i górskimi pasmami. Nie posiada atmosfery i wody, co sprawia, że jest to bardzo surowe i niegościnne środowisko.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Fazy Księżyca</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Księżyc przechodzi różne fazy w zależności od pozycji w stosunku do Ziemi i Słońca. Zaczyna się od nowiu, przechodzi przez kolejne fazy (np. pierwszą kwadrę, pełnię, ostatnią kwadrę) i powraca do nowiu.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Historia eksploracji</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Księżyc był obiektem wielu misji badawczych, zarówno załogowych, jak i bezzałogowych. Pierwszy człowiek, który postawił stopę na Księżycu, był Neil Armstrong podczas misji Apollo 11 w 1969 roku.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Teorie powstania Księżyca</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Istnieje kilka teorii dotyczących powstania Księżyca, w tym teoria zderzenia, która sugeruje, że Księżyc powstał w wyniku zderzenia Ziemi z innym ciałem niebieskim.
+                    </p>
+                </div>
+            </div>
+            <script src="accordionScript.js"></script>
+        </div>
+    </section>
+    <!-- STOPKA STRONY -->
+    <footer>
+        <h3>Jaki jest Twój następny cel podróży?</h3>
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+                <img src="footerCarousel/solarsystem_carousel.png" alt="Układ Słoneczny" class="footer-planet-image"
+                    data-url="SolarSystem.html" data-hover-src="footerCarousel/solarsystem_carousel_hover.png">
+                <img src="footerCarousel/sun_carousel.png" alt="Słońce" class="footer-planet-image"
+                    data-url="Sun.html" data-hover-src="footerCarousel/sun_carousel_hover.png">
+                <img src="footerCarousel/mercury_carousel.png" alt="Merkury" class="footer-planet-image"
+                    data-url="Mercury.html" data-hover-src="footerCarousel/mercury_carousel_hover.png">
+                <img src="footerCarousel/venus_carousel.png" alt="Wenus" class="footer-planet-image"
+                    data-url="Venus.html" data-hover-src="footerCarousel/venus_carousel_hover.png">
+                <img src="footerCarousel/earth_carousel.png" alt="Ziemia" class="footer-planet-image"
+                    data-url="Earth.html" data-hover-src="footerCarousel/earth_carousel_hover.png">
+                <img src="footerCarousel/mars_carousel.png" alt="Mars" class="footer-planet-image"
+                    data-url="Mars.html" data-hover-src="footerCarousel/mars_carousel_hover.png">
+                <img src="footerCarousel/jupiter_carousel.png" alt="Jowisz" class="footer-planet-image"
+                    data-url="Jupiter.html" data-hover-src="footerCarousel/jupiter_carousel_hover.png">
+                <img src="footerCarousel/saturn_carousel.png" alt="Saturn" class="footer-planet-image"
+                    data-url="Saturn.html" data-hover-src="footerCarousel/saturn_carousel_hover.png">
+                <img src="footerCarousel/uranus_carousel.png" alt="Uran" class="footer-planet-image"
+                    data-url="Uranus.html" data-hover-src="footerCarousel/uranus_carousel_hover.png">
+                <img src="footerCarousel/neptune_carousel.png" alt="Neptun" class="footer-planet-image"
+                    data-url="Neptune.html" data-hover-src="footerCarousel/neptune_carousel_hover.png">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+        <script src="footerScript.js"></script>
+    </footer>
+</body>
+</html>

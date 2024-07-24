@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Blog Saturn</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- LOGO STRONY -->
+    <header id="header" class="primary-header flex">
+        <div class="logo">
+            <h1>AstronomyBlog</h1>
+            <h2 class="subtitle">SeeYouOnTheOtherSite</h2>
+        </div>
+    </header>
+    <!-- CIALO STRONY ZAWIERAJACE IMG ORAZ AKORDEON -->
+    <section>
+        <div class="body">
+            <img src="planets/sun.jpg" alt="Słońce">
+        </div>
+        <div class="body">
+            <div class="accordion">
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Budowa Słońca</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Słońce składa się głównie z gorącego, gęstego gazu w postaci plazmy. Ma jądro, powłokę wewnętrzną, powłokę zewnętrzną i koronę. W jądrze zachodzą reakcje termojądrowe, które generują ogromne ilości energii.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Cykl aktywności słonecznej</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Słońce przechodzi cykl aktywności, który trwa około 11 lat. W trakcie aktywnego okresu obserwuje się wzmożoną ilość plam słonecznych, erupcje i wybuchy słoneczne. To ma wpływ na naszą magnetosferę i atmosferę.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Wpływ Słońca na Ziemię</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Słońce jest głównym źródłem energii dla życia na Ziemi. Emituje promieniowanie elektromagnetyczne, w tym światło widzialne i promieniowanie UV, które wpływają na procesy klimatyczne, fotosyntezę i wiele innych aspektów życia na naszej planecie.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Badania Słońca</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Badania Słońca są prowadzone za pomocą satelitów i teleskopów kosmicznych. Pozwalają nam zgłębiać tajemnice naszej gwiazdy, lepiej rozumieć jej strukturę, cykl aktywności oraz wpływ na naszą planetę i układ słoneczny.
+                    </p>
+                </div>
+            </div>
+            <script src="accordionScript.js"></script>
+        </div>
+    </section>
+    <!-- STOPKA STRONY -->
+    <footer>
+        <h3>Jaki jest Twój następny cel podróży?</h3>
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+                <img src="footerCarousel/solarsystem_carousel.png" alt="Układ Słoneczny" class="footer-planet-image"
+                    data-url="SolarSystem.html" data-hover-src="footerCarousel/solarsystem_carousel_hover.png">
+                <img src="footerCarousel/mercury_carousel.png" alt="Merkury" class="footer-planet-image"
+                    data-url="Mercury.html" data-hover-src="footerCarousel/mercury_carousel_hover.png">
+                <img src="footerCarousel/venus_carousel.png" alt="Wenus" class="footer-planet-image"
+                    data-url="Venus.html" data-hover-src="footerCarousel/venus_carousel_hover.png">
+                <img src="footerCarousel/earth_carousel.png" alt="Ziemia" class="footer-planet-image"
+                    data-url="Earth.html" data-hover-src="footerCarousel/earth_carousel_hover.png">
+                <img src="footerCarousel/earth_moon_carousel.png" alt="Księżyc" class="footer-planet-image"
+                    data-url="EarthsMoon.html" data-hover-src="footerCarousel/earth_moon_carousel_hover.png">
+                <img src="footerCarousel/mars_carousel.png" alt="Mars" class="footer-planet-image"
+                    data-url="Mars.html" data-hover-src="footerCarousel/mars_carousel_hover.png">
+                <img src="footerCarousel/jupiter_carousel.png" alt="Jowisz" class="footer-planet-image"
+                    data-url="Jupiter.html" data-hover-src="footerCarousel/jupiter_carousel_hover.png">
+                <img src="footerCarousel/saturn_carousel.png" alt="Saturn" class="footer-planet-image"
+                    data-url="Saturn.html" data-hover-src="footerCarousel/saturn_carousel_hover.png">
+                <img src="footerCarousel/uranus_carousel.png" alt="Uran" class="footer-planet-image"
+                    data-url="Uranus.html" data-hover-src="footerCarousel/uranus_carousel_hover.png">
+                <img src="footerCarousel/neptune_carousel.png" alt="Neptun" class="footer-planet-image"
+                    data-url="Neptune.html" data-hover-src="footerCarousel/neptune_carousel_hover.png">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+        <script src="footerScript.js"></script>
+    </footer>
+</body>
+</html>

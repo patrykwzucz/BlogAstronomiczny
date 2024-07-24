@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Blog Mars</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- LOGO STRONY -->
+    <header id="header" class="primary-header flex">
+        <div class="logo">
+            <h1>AstronomyBlog</h1>
+            <h2 class="subtitle">SeeYouOnTheOtherSite</h2>
+        </div>
+    </header>
+    <!-- CIALO STRONY ZAWIERAJACE IMG ORAZ AKORDEON -->
+    <section>
+        <div class="body">
+            <img src="planets/mars.jpg" alt="Ziemia">
+        </div>
+        <div class="body">
+            <div class="accordion">
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Charakterystyka planety</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Mars jest czwartą planetą od Słońca i jest znany jako "Czerwona Planeta" ze względu na kolor swojej powierzchni. Jest on mniejszy od Ziemi, ma cienką atmosferę i pokryty jest obszarami skalistymi, pustyniami i wulkanami.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Badania Marsa</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Mars jest obiektem wielu misji kosmicznych. Badania Marsa mają na celu poszukiwanie śladów wody, zrozumienie historii geologicznej planety i ocenę jej potencjału do podtrzymania życia.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Możliwość kolonizacji</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Mars jest jedną z planet, na której naukowcy rozważają możliwość kolonizacji przez ludzi w przyszłości. Badania nad warunkami atmosferycznymi, dostępem do wody i możliwością uprawy roślin są prowadzone w celu oceny tej możliwości.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Marsończycy</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Marsończycy to planowane misje załogowe na Marsa, w których astronauci mieliby zamieszkać na powierzchni planety na dłuższy czas. Takie misje stanowiłyby wyzwanie technologiczne i naukowe dla ludzkości.
+                    </p>
+                </div>
+            </div>
+            <script src="accordionScript.js"></script>
+        </div>
+    </section>
+    <!-- STOPKA STRONY -->
+    <footer>
+        <h3>Jaki jest Twój następny cel podróży?</h3>
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+                <img src="footerCarousel/solarsystem_carousel.png" alt="Układ Słoneczny" class="footer-planet-image"
+                    data-url="SolarSystem.html" data-hover-src="footerCarousel/solarsystem_carousel_hover.png">
+                <img src="footerCarousel/sun_carousel.png" alt="Słońce" class="footer-planet-image"
+                    data-url="Sun.html" data-hover-src="footerCarousel/sun_carousel_hover.png">
+                <img src="footerCarousel/mercury_carousel.png" alt="Merkury" class="footer-planet-image"
+                    data-url="Mercury.html" data-hover-src="footerCarousel/mercury_carousel_hover.png">
+                <img src="footerCarousel/venus_carousel.png" alt="Wenus" class="footer-planet-image"
+                    data-url="Venus.html" data-hover-src="footerCarousel/venus_carousel_hover.png">
+                <img src="footerCarousel/earth_carousel.png" alt="Ziemia" class="footer-planet-image"
+                    data-url="Earth.html" data-hover-src="footerCarousel/earth_carousel_hover.png">
+                <img src="footerCarousel/earth_moon_carousel.png" alt="Księżyc" class="footer-planet-image"
+                    data-url="EarthsMoon.html" data-hover-src="footerCarousel/earth_moon_carousel_hover.png">
+                <img src="footerCarousel/jupiter_carousel.png" alt="Jowisz" class="footer-planet-image"
+                    data-url="Jupiter.html" data-hover-src="footerCarousel/jupiter_carousel_hover.png">
+                <img src="footerCarousel/saturn_carousel.png" alt="Saturn" class="footer-planet-image"
+                    data-url="Saturn.html" data-hover-src="footerCarousel/saturn_carousel_hover.png">
+                <img src="footerCarousel/uranus_carousel.png" alt="Uran" class="footer-planet-image"
+                    data-url="Uranus.html" data-hover-src="footerCarousel/uranus_carousel_hover.png">
+                <img src="footerCarousel/neptune_carousel.png" alt="Neptun" class="footer-planet-image"
+                    data-url="Neptune.html" data-hover-src="footerCarousel/neptune_carousel_hover.png">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+        <script src="footerScript.js"></script>
+    </footer>
+</body>
+</html>

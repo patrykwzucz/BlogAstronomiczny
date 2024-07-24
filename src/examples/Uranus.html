@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Blog Saturn</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- LOGO STRONY -->
+    <header id="header" class="primary-header flex">
+        <div class="logo">
+            <h1>AstronomyBlog</h1>
+            <h2 class="subtitle">SeeYouOnTheOtherSite</h2>
+        </div>
+    </header>
+    <!-- CIALO STRONY ZAWIERAJACE IMG ORAZ AKORDEON -->
+    <section>
+        <div class="body">
+            <img src="planets/uranus.jpg" alt="Uran">
+        </div>
+        <div class="body">
+            <div class="accordion">
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Charakterystyka planety</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Uran to siódma planeta od Słońca i jest gazowym olbrzymem. Ma unikalne cechy, takie jak nachylenie osi obrotu, które powoduje, że planeta obraca się na bok. Ma również charakterystyczną niebieską atmosferę.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Bardzo zimna planeta</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Uran jest jedną z najzimniejszych planet w naszym układzie słonecznym. Temperatury na Uranie spadają do bardzo niskich wartości, a atmosfera składa się głównie z wodoru i helu.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Księżyce Urana</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Uran ma wiele księżyców, z których największe to Tytania. Te księżyce mają różne rozmiary i skład chemiczny. Badania tych księżyców dostarczają nam informacji o historii i warunkach panujących na Uranie.
+                    </p>
+                </div>
+
+                <div class="accordion-content">
+                    <header>
+                        <span class="title">Badania Urana</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </header>
+                    <p class="description">
+                        Badania Urana są prowadzone przez sondy kosmiczne, takie jak Voyager 2, które dostarczają nam informacji o atmosferze, składzie chemicznym i strukturze wewnętrznej planety. Te badania pomagają w lepszym zrozumieniu tej tajemniczej planety.
+                    </p>
+                </div>
+            </div>
+            <script src="accordionScript.js"></script>
+        </div>
+    </section>
+    <!-- STOPKA STRONY -->
+    <footer>
+        <h3>Jaki jest Twój następny cel podróży?</h3>
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+                <img src="footerCarousel/solarsystem_carousel.png" alt="Układ Słoneczny" class="footer-planet-image"
+                    data-url="SolarSystem.html" data-hover-src="footerCarousel/solarsystem_carousel_hover.png">
+                <img src="footerCarousel/sun_carousel.png" alt="Słońce" class="footer-planet-image"
+                    data-url="Sun.html" data-hover-src="footerCarousel/sun_carousel_hover.png">
+                <img src="footerCarousel/mercury_carousel.png" alt="Merkury" class="footer-planet-image"
+                    data-url="Mercury.html" data-hover-src="footerCarousel/mercury_carousel_hover.png">
+                <img src="footerCarousel/venus_carousel.png" alt="Wenus" class="footer-planet-image"
+                    data-url="Venus.html" data-hover-src="footerCarousel/venus_carousel_hover.png">
+                <img src="footerCarousel/earth_carousel.png" alt="Ziemia" class="footer-planet-image"
+                    data-url="Earth.html" data-hover-src="footerCarousel/earth_carousel_hover.png">
+                <img src="footerCarousel/earth_moon_carousel.png" alt="Księżyc" class="footer-planet-image"
+                    data-url="EarthsMoon.html" data-hover-src="footerCarousel/earth_moon_carousel_hover.png">
+                <img src="footerCarousel/mars_carousel.png" alt="Mars" class="footer-planet-image"
+                    data-url="Mars.html" data-hover-src="footerCarousel/mars_carousel_hover.png">
+                <img src="footerCarousel/jupiter_carousel.png" alt="Jowisz" class="footer-planet-image"
+                    data-url="Jupiter.html" data-hover-src="footerCarousel/jupiter_carousel_hover.png">
+                <img src="footerCarousel/saturn_carousel.png" alt="Saturn" class="footer-planet-image"
+                    data-url="Saturn.html" data-hover-src="footerCarousel/saturn_carousel_hover.png">
+                <img src="footerCarousel/neptune_carousel.png" alt="Neptun" class="footer-planet-image"
+                    data-url="Neptune.html" data-hover-src="footerCarousel/neptune_carousel_hover.png">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+        <script src="footerScript.js"></script>
+    </footer>
+</body>
+</html>

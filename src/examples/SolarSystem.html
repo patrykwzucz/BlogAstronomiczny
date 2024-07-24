@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Układ Słoneczny</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
+  <script src="nav.js" defer></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://threejs.org/build/three.module.js",
+        "three/examples/jsm/loaders/GLTFLoader.js": "https://threejs.org/examples/jsm/loaders/GLTFLoader.js",
+        "three/examples/jsm/controls/OrbitControls.js": "https://threejs.org/examples/jsm/controls/OrbitControls.js",
+        "three/examples/jsm/postprocessing/EffectComposer.js": "https://threejs.org/examples/jsm/postprocessing/EffectComposer.js",
+        "three/examples/jsm/postprocessing/RenderPass.js": "https://threejs.org/examples/jsm/postprocessing/RenderPass.js",
+        "three/examples/jsm/postprocessing/ShaderPass.js": "https://threejs.org/examples/jsm/postprocessing/ShaderPass.js",
+        "three/examples/jsm/postprocessing/UnrealBloomPass.js": "https://threejs.org/examples/jsm/postprocessing/UnrealBloomPass.js",
+        "three/examples/jsm/modifiers/CurveModifier.js": "https://threejs.org/examples/jsm/modifiers/CurveModifier.js"
+      }
+    }
+  </script>
+  <script src="threeScript.js" type="module"></script>
+</head>
+<body>
+  <header id="header" class="primary-header flex">
+    <div class="logo">
+      <h1>AstronomyBlog</h1>
+      <h2 class="subtitle">SeeYouOnTheOtherSite</h2>
+    </div>
+
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span aria-hidden="true">Menu</span></button>
+
+    <nav>
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+        <li><a href="SolarSystem.html"><span aria-hidden="true">00</span>Układ Słoneczny</a></li>
+        <li><a href="Sun.html"><span aria-hidden="true">01</span>Słońce</a></li>
+        <li><a href="Mercury.html"><span aria-hidden="true">02</span>Merkury</a></li>
+        <li><a href="Venus.html"><span aria-hidden="true">03</span>Wenus</a></li>
+        <li><a href="Earth.html"><span aria-hidden="true">04</span>Ziemia</a></li>
+        <li><a href="EarthsMoon.html"><span aria-hidden="true">05</span>Księżyc</a></li>
+        <li><a href="Mars.html"><span aria-hidden="true">06</span>Mars</a></li>
+        <li><a href="Jupiter.html"><span aria-hidden="true">07</span>Jowisz</a></li>
+        <li><a href="Saturn.html"><span aria-hidden="true">08</span>Saturn</a></li>
+        <li><a href="Uranus.html"><span aria-hidden="true">09</span>Uran</a></li>
+        <li><a href="Neptune.html"><span aria-hidden="true">10</span>Neptun</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+
+</html>
